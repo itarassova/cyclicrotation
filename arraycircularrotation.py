@@ -4,4 +4,3 @@ def solution(K,A):
         new_index = (i+K)%len(A)
         b[i] = A[i]
     return b
-print(solution(3, [3,8,9,7,6]))
